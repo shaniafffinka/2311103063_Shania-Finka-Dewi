@@ -1,0 +1,105 @@
+/* style keseluruhan */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e3f2fd;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/*  Container resume */
+.resume {
+    width: 800px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* kotak Kiri */
+.left-panel {
+    background: #07121c;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+}
+
+.left-panel img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid white;
+}
+
+.left-panel h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.left-panel p {
+    font-size: 1.1em;
+}
+
+/* Informasi Kontak */
+.contact-info {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contact-info h2 {
+    font-size: 1.2em;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.contact-info p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #ffeb3b;
+    text-decoracotion: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* kotak Kanan */
+.right-panel {
+    width: 65%;
+    padding: 20px;
+}
+
+/* Section Styling */
+h2 {
+    border-bottom: 2px solid #465463;
+    padding-bottom: 5px;
+    color: #4b6785;
+}
+
+
+.section {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+
+/* List Styling */
+ul { /* underlist */
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li { /* underlist */
+    margin: 5px 0;
+}
+
+
