@@ -1,0 +1,1 @@
+<?php $nama = "Shania Finka Dewi"; $umur = 21; echo "Halo, nama saya $nama dan saya berumur $umur tahun."; ?>
